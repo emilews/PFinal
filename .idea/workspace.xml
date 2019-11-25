@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8f3fb472-51cf-4795-8da0-b6a486fd95eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/signup.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/signup.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.app">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.App" />
       <module name="PFinal" />
@@ -86,8 +89,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.app" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +107,7 @@
       <workItem from="1574138403302" duration="1119000" />
       <workItem from="1574140741373" duration="686000" />
       <workItem from="1574557717359" duration="2490000" />
-      <workItem from="1574628513078" duration="8655000" />
+      <workItem from="1574628513078" duration="10800000" />
     </task>
     <servers />
   </component>
