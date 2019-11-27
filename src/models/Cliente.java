@@ -1,6 +1,13 @@
-package core;
+package models;
 
-public class Cliente {
+import core.App;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.net.Socket;
+
+public class Cliente extends Colega{
     public Cliente(String nombre, String ip, int puerto, String ps) {
 
     this.puerto = puerto;
@@ -9,7 +16,7 @@ public class Cliente {
     this.pass = ps;
 }
 
-    public void init() {
+    public void init(boolean isNew) {
         try {
             Thread hilo = new Thread(new Runnable() {
                 @Override
@@ -18,6 +25,11 @@ public class Cliente {
                         cliente = new Socket(ip, puerto);
                     } catch (IOException ex) {
                         ex.printStackTrace();
+                    }
+                    try {
+                        App.mainScreen();
+                    } catch (IOException e) {
+                        e.printStackTrace();
                     }
                     try {
                         buffSalida = new DataOutputStream(cliente.getOutputStream());
@@ -30,7 +42,12 @@ public class Cliente {
                         ex.printStackTrace();
                     }
                     try {
-                        buffSalida.writeUTF(nombre + "," + pass);
+                        if(isNew){
+                            buffSalida.writeUTF("NewUser:>"+nombre + "," + pass);
+                        }else{
+                            buffSalida.writeUTF("LogIn:>"+nombre + "," + pass);
+                        }
+
                     } catch (IOException ex) {
                         ex.printStackTrace();
                     }
@@ -41,14 +58,13 @@ public class Cliente {
                         ex.printStackTrace();
                     }
                     if (mesgIn.equals("Aceptado")) {
-                        try {
-                            MainCliente.changeToMainView();
-                        } catch (IOException ex) {
-                            ex.printStackTrace();
-                        }
-                        // RecibirDatos();
+                        //AQUI EMPEZAMOS LOL
+
+
+
                         EscribirDatos();
                     } else {
+                        RecibirDatos(mesgIn);
                         try {
                             cliente.close();
                         } catch (IOException ex) {
@@ -64,11 +80,4 @@ public class Cliente {
             e.printStackTrace();
         }
     }
-    public static void Start(String n, String pass){
-        Cliente cliente = new Cliente(n, "localhost", 9000, pass);
-        cliente.init();
-        MainControllter.setCliente(cliente);
-        // cliente.RecibirDatos();
-    }
-
 }

@@ -1,7 +1,10 @@
-package core;
+package models;
+
+import core.ProxyMessenger;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
+import java.io.IOException;
 import java.net.Socket;
 
 public class Colega {
@@ -20,12 +23,11 @@ public class Colega {
             public void run() {
                 try {
                     while (true) {
+                        System.out.println(mesgIn);
                         if(mesgIn.contains("topics:>")){
-                            //AQUI LISTA TOPICS
                         }
-                        if(mesgIn.contains("Broadcast")){
-                            System.out.println("texto");
-                            //AQUI BROADCASR
+                        if(mesgIn.contains("[Broadcast]")){
+                            ProxyMessenger.newMessageIn(mesgIn);
                         }
                     }
                 } catch (Exception e) {
@@ -37,14 +39,22 @@ public class Colega {
     }
 
     public void EnviarDatos(String msg) {
-        try {
-            buffSalida.writeUTF("<" + nombre + "> " + msg);
-            buffSalida.flush();
-            System.out.println(msg);
-            RecibirDatos(msg);
-        } catch (Exception e) {
+        System.out.println(msg);
+        if("topic -l".equals(msg)){
+            try {
+                buffSalida.writeUTF("topic -l");
+                buffSalida.flush();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }else{
+            try {
+                buffSalida.writeUTF(msg);
+                buffSalida.flush();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
-        ;
     }
 
     public void EscribirDatos() {

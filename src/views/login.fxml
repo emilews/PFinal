@@ -11,7 +11,7 @@
       <TextField fx:id="UsuarioLogin" layoutX="324.0" layoutY="225.0" promptText="Usuario" />
       <PasswordField fx:id="ContraseñaLogin" layoutX="324.0" layoutY="287.0" promptText="Contraseña" />
       <Label fx:id="LabelLogin" layoutX="364.0" layoutY="157.0" text="¡Bienvenido!" />
-      <Button fx:id="EntrarLogin" layoutX="297.0" layoutY="361.0" mnemonicParsing="false" text="Entrar" />
+      <Button fx:id="EntrarLogin" layoutX="297.0" layoutY="361.0" mnemonicParsing="false" onAction="#logIn" text="Entrar" />
       <Button fx:id="RegistrarLogin" layoutX="434.0" layoutY="361.0" mnemonicParsing="false" onAction="#ChangeToRegister" text="Registrarse" />
    </children>
 </Pane>
