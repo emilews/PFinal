@@ -7,14 +7,15 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 
-public class Cliente extends Colega{
-    public Cliente(String nombre, String ip, int puerto, String ps) {
+public class Cliente extends Colega {
 
-    this.puerto = puerto;
-    this.nombre = nombre;
-    this.ip = ip;
-    this.pass = ps;
-}
+
+    public Cliente(String nombre, String ip, int puerto, String ps) {
+        this.puerto = puerto;
+        this.nombre = nombre;
+        this.ip = ip;
+        this.pass = ps;
+    }
 
     public void init(boolean isNew) {
         try {
@@ -27,11 +28,6 @@ public class Cliente extends Colega{
                         ex.printStackTrace();
                     }
                     try {
-                        App.mainScreen();
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                    try {
                         buffSalida = new DataOutputStream(cliente.getOutputStream());
                     } catch (IOException ex) {
                         ex.printStackTrace();
@@ -42,12 +38,11 @@ public class Cliente extends Colega{
                         ex.printStackTrace();
                     }
                     try {
-                        if(isNew){
-                            buffSalida.writeUTF("NewUser:>"+nombre + "," + pass);
-                        }else{
-                            buffSalida.writeUTF("LogIn:>"+nombre + "," + pass);
+                        if (isNew) {
+                            buffSalida.writeUTF("NewUser:>" + nombre + "," + pass);
+                        } else {
+                            buffSalida.writeUTF("LogIn:>" + nombre + "," + pass);
                         }
-
                     } catch (IOException ex) {
                         ex.printStackTrace();
                     }
@@ -57,25 +52,25 @@ public class Cliente extends Colega{
                     } catch (IOException ex) {
                         ex.printStackTrace();
                     }
+                    System.out.println(mesgIn);
                     if (mesgIn.equals("Aceptado")) {
-                        //AQUI EMPEZAMOS LOL
-
-
-
+                        try {
+                            App.mainScreen();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        RecibirDatos();
                         EscribirDatos();
                     } else {
-                        RecibirDatos(mesgIn);
                         try {
                             cliente.close();
                         } catch (IOException ex) {
                             ex.printStackTrace();
                         }
                     }
-
                 }
             });
             hilo.start();
-
         } catch (Exception e) {
             e.printStackTrace();
         }

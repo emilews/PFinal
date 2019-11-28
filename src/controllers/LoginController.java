@@ -39,7 +39,7 @@ public class LoginController {
         }
         if(can){
             MainController.setClienteModel(UsuarioLogin.getText().trim(),
-                    "localhost", 9000,
+                    App.getIP(), App.getPort(),
                     ContraseñaLogin.getText().trim(), false);
         }
     }

@@ -5,14 +5,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/SignupController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/SignupController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PFinal/core/app.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/core/app.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PFinal/views/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/views/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PFinal/views/signup.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/views/signup.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/SignupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/SignupController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/Colega.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Colega.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/ProxyMessenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/ProxyMessenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Colega.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Colega.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/main.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +115,7 @@
       <workItem from="1574557717359" duration="2490000" />
       <workItem from="1574628513078" duration="11470000" />
       <workItem from="1574827704527" duration="11932000" />
+      <workItem from="1574915088097" duration="12650000" />
     </task>
     <servers />
   </component>

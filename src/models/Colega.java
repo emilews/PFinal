@@ -17,17 +17,22 @@ public class Colega {
     public int puerto;
     public String pass;
 
-    public void RecibirDatos(String mesgIn) {
+    public void RecibirDatos() {
         Thread hilo = new Thread(new Runnable() {
             @Override
             public void run() {
                 try {
                     while (true) {
+                        String mesgIn = buffEntrada.readUTF();
                         System.out.println(mesgIn);
-                        if(mesgIn.contains("topics:>")){
-                        }
                         if(mesgIn.contains("[Broadcast]")){
                             ProxyMessenger.newMessageIn(mesgIn);
+                        }
+                        if(mesgIn.contains("Topics:>")){
+                            ProxyMessenger.topicsIn(mesgIn);
+                        }
+                        if(mesgIn.contains("["+nombre+"]")){
+                            ProxyMessenger.newPrivateMessageIn(mesgIn);
                         }
                     }
                 } catch (Exception e) {

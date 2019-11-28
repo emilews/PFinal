@@ -57,7 +57,8 @@ public class SignupController {
                 RegErrors.setText(RegErrors.getText()+"\n"+s);
             }
         }else{
-
+            MainController.setClienteModel(user.getUserName(), App.getIP(), App.getPort(),
+                    user.getPassWord(), true);
         }
     }
 }
