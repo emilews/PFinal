@@ -104,6 +104,7 @@ public class MainController implements Initializable {
     public static void setTopics(String t){
         String[] ts = t.split(":>");
         String[] s = ts[1].split(",");
+        topics.clear();
         for(int i = 0; i < s.length; i++){
             if(cliente.nombre.equals(s[i])){
                 continue;
@@ -111,6 +112,7 @@ public class MainController implements Initializable {
             if(!topics.contains(s[i])){
                 topics.add(s[i]);
             }
+
         }
         if(topics.get(0).equals("Sin canales.")){
             topics.remove(0);

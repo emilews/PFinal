@@ -31,11 +31,11 @@ public class LoginController {
         boolean can = true;
         if(UsuarioLogin.getText().trim().isEmpty()){
             can = false;
-            LabelLogin.setText("Por favor ingrese un usuario.");
+            //LabelLogin.setText("Por favor ingrese un usuario.");
         }
         if(ContraseñaLogin.getText().trim().isEmpty()){
             can = false;
-            LabelLogin.setText("Por favor ingrese una contraseña.");
+            //LabelLogin.setText("Por favor ingrese una contraseña.");
         }
         if(can){
             MainController.setClienteModel(UsuarioLogin.getText().trim(),
