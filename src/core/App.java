@@ -7,6 +7,7 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
@@ -47,6 +48,10 @@ public class App extends Application {
         Parent main = FXMLLoader.load(App.class.getResource("../views/main.fxml"));
         primaryStage.getScene().setRoot(main);
     }
+    public static Stage getStage() {
+        return primaryStage;
+    }
+
 
     public static String getIP(){
         return IP;

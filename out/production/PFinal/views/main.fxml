@@ -12,7 +12,11 @@
       <ListView id="MainChatArea" fx:id="MainChatArea" layoutX="42.0" layoutY="57.0" prefHeight="419.0" prefWidth="441.0" />
       <Button fx:id="MainBotonSalir" layoutX="42.0" layoutY="14.0" mnemonicParsing="false" onAction="#salirMenu" text="Salir" />
       <Button fx:id="MainBotonEnviar" layoutX="435.0" layoutY="513.0" mnemonicParsing="false" onAction="#enviarMensaje" text="Enviar" />
-      <ListView fx:id="MainListaTopics" layoutX="523.0" layoutY="57.0" prefHeight="419.0" prefWidth="244.0" />
+      <ListView fx:id="MainListaUsers" layoutX="523.0" layoutY="57.0" prefHeight="137.0" prefWidth="244.0" />
       <Label fx:id="MainCanalLabel" layoutX="42.0" layoutY="496.0" text="Broadcast" />
+      <ListView fx:id="MainListaTopics" layoutX="523.0" layoutY="207.0" prefHeight="119.0" prefWidth="244.0" />
+      <ListView fx:id="MainListaMio" layoutX="523.0" layoutY="339.0" prefHeight="137.0" prefWidth="244.0" />
+      <TextField fx:id="MainNuevoTopicNombre" layoutX="571.0" layoutY="513.0" promptText="Nombre topic" />
+      <Button fx:id="MainAgregarNuevoTopic" layoutX="623.0" layoutY="546.0" mnemonicParsing="false" onAction="#newTopicWindow" text="Crear" />
    </children>
 </Pane>

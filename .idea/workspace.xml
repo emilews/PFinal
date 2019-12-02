@@ -5,8 +5,21 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/SignupController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/SignupController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/core/App$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/core/App$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/core/ProxyMessenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/core/ProxyMessenger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/core/app.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/core/app.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/models/Colega$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/models/Colega$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/models/Colega.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/models/Colega.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/views/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/views/main.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/ProxyMessenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/ProxyMessenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Colega.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Colega.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/main.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PFinal - copia" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PFinal - copia - copia" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,6 +55,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\emili\IdeaProjects\PFinal\src\views" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -111,6 +129,7 @@
       <workItem from="1574827704527" duration="11932000" />
       <workItem from="1574915088097" duration="12650000" />
       <workItem from="1574985462425" duration="1006000" />
+      <workItem from="1575146242664" duration="17910000" />
     </task>
     <servers />
   </component>

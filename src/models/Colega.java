@@ -31,6 +31,18 @@ public class Colega {
                         if(mesgIn.contains("Topics:>")){
                             ProxyMessenger.topicsIn(mesgIn);
                         }
+                        if(mesgIn.contains("Users:>")){
+                            ProxyMessenger.usersIn(mesgIn);
+                        }
+                        if(mesgIn.contains("Mios:>")){
+                            ProxyMessenger.miosIn(mesgIn);
+                        }
+                        if(mesgIn.equals("No eres el administrador del topic, imposible remover")){
+                            ProxyMessenger.cantRemoveIn(mesgIn);
+                        }
+                        if(mesgIn.contains("El topic ya existe")){
+                            ProxyMessenger.cantCreateIn(mesgIn);
+                        }
                         if(mesgIn.contains("["+nombre+"]")){
                             ProxyMessenger.newPrivateMessageIn(mesgIn);
                         }
@@ -44,7 +56,6 @@ public class Colega {
     }
 
     public void EnviarDatos(String msg) {
-        System.out.println(msg);
         if("topic -l".equals(msg)){
             try {
                 buffSalida.writeUTF("topic -l");
