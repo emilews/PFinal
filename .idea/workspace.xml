@@ -2,24 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f3fb472-51cf-4795-8da0-b6a486fd95eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PFinal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PFinal.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$13$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$13$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$14$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$14$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$15$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$15$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$15.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PFinal/core/App$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/core/App$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PFinal/core/ProxyMessenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/core/ProxyMessenger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PFinal/core/app.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/core/app.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/controllers/SignupController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/controllers/SignupController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/models/Cliente$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/models/Cliente$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/models/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/models/Cliente.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PFinal/models/Colega$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/models/Colega$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PFinal/models/Colega.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/models/Colega.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PFinal/views/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/views/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/models/SignUpModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/models/SignUpModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/models/composite/FormValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/models/composite/FormValidation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/models/composite/PasswordLength.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/models/composite/PasswordLength.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/models/composite/PasswordLetters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/models/composite/PasswordLetters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/models/composite/PasswordNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/models/composite/PasswordNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PFinal/models/composite/SignUpFormVerification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PFinal/models/composite/SignUpFormVerification.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/ProxyMessenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/ProxyMessenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/Colega.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Colega.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/main.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,18 +59,19 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PFinal - copia - copia" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -74,10 +91,10 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.App" />
       <module name="PFinal" />
-      <option name="VM_PARAMETERS" value="--module-path C:\Users\emili\Desktop\javafx-sdk-11.0.2\lib --add-modules javafx.controls,javafx.fxml" />
+      <option name="VM_PARAMETERS" value="--module-path C:\Users\Usuario\Downloads\openjfx-11.0.2_windows-x64_bin-sdk\javafx-sdk-11.0.2\lib --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="models.*" />
@@ -107,7 +124,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>

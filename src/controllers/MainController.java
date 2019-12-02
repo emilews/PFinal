@@ -72,7 +72,9 @@ public class MainController implements Initializable {
                 if (click.getClickCount() == 2) {
                     String selection = MainListaTopics.getSelectionModel()
                             .getSelectedItem().toString();
-                    changeTarget(selection);
+                    if(mios.contains(selection)){
+                        changeTarget(selection);
+                    }
                 }
             }
         });

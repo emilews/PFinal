@@ -25,26 +25,25 @@ public class Colega {
                     while (true) {
                         String mesgIn = buffEntrada.readUTF();
                         System.out.println(mesgIn);
-                        if(mesgIn.contains("[Broadcast]")){
-                            ProxyMessenger.newMessageIn(mesgIn);
-                        }
                         if(mesgIn.contains("Topics:>")){
                             ProxyMessenger.topicsIn(mesgIn);
                         }
-                        if(mesgIn.contains("Users:>")){
+                        else if(mesgIn.contains("Users:>")){
                             ProxyMessenger.usersIn(mesgIn);
                         }
-                        if(mesgIn.contains("Mios:>")){
+                        else if(mesgIn.contains("Mios:>")){
                             ProxyMessenger.miosIn(mesgIn);
                         }
-                        if(mesgIn.equals("No eres el administrador del topic, imposible remover")){
+                        else if(mesgIn.equals("No eres el administrador del topic, imposible remover")){
                             ProxyMessenger.cantRemoveIn(mesgIn);
                         }
-                        if(mesgIn.contains("El topic ya existe")){
+                        else if(mesgIn.contains("El topic ya existe")){
                             ProxyMessenger.cantCreateIn(mesgIn);
                         }
-                        if(mesgIn.contains("["+nombre+"]")){
+                        else if(mesgIn.contains("["+nombre+"]")){
                             ProxyMessenger.newPrivateMessageIn(mesgIn);
+                        }else{
+                            ProxyMessenger.newMessageIn(mesgIn);
                         }
                     }
                 } catch (Exception e) {
